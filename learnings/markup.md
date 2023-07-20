@@ -1,6 +1,6 @@
 ## 1. Structure a site using semantic HTML to aid accessibility
 
-One of our key principles was building an inclusive and accessible website. We achieved this by meticulously employing semantic HTML elements to enhance the site's structure and navigation. For instance, we used `nav` for the navigation bar, `h1` for the main heading, and `section` for grouping related content, making it easier for all users, including those with disabilities, to comprehend and interacted with our site seamlessly.
+One of our key principles was building an inclusive and accessible website. We achieved this by meticulously employing semantic HTML elements to enhance the site's structure and navigation. For instance, we used `nav` for the navigation bar, `h1` for the main heading, and `section` for grouping related content, making it easier for all users to read and interact with our site.
 
 ![Semantic HTML Code Snippet](../images/Semantic-HTML.png)
 
