@@ -1,12 +1,12 @@
 ## 1. Structure a site using semantic HTML to aid accessibility
 
-One of our key principles was building an inclusive and accessible website. We achieved this by meticulously employing semantic HTML elements to enhance the site's structure and navigation. For instance, we used <nav> for the navigation bar, <h1> for the main heading, and <section> for grouping related content, making it easier for all users, including those with disabilities, to comprehend and interacted with our site seamlessly.
+One of our key principles was building an inclusive and accessible website. We achieved this by meticulously employing semantic HTML elements to enhance the site's structure and navigation. For instance, we used `nav` for the navigation bar, `h1` for the main heading, and `section` for grouping related content, making it easier for all users, including those with disabilities, to comprehend and interacted with our site seamlessly.
 
 ![Semantic HTML Code Snippet](../images/Semantic-HTML.png)
 
 ## 2. Ensure a web page is readable for screen readers
 
-Our dedication to inclusivity extended to users who relied on screen readers to access the web. To support them, we diligently provided descriptive alt text for images, such as <img alt="Profile picture - John Doe">, which conveyed essential information about the image's content. Additionally, we managed focus appropriately, ensuring that screen readers navigated the page logically and efficiently, creating a welcoming experience for all users.
+Our dedication to inclusivity extended to users who relied on screen readers to access the web. To support them, we diligently provided descriptive alt text for images, such as `img alt="Profile picture - John Doe"`, which conveyed essential information about the image's content. Additionally, we managed focus appropriately, ensuring that screen readers navigated the page logically and efficiently, creating a welcoming experience for all users.
 
 ## 3. Ensure our UI has sufficient colour contrast so that everyone can perceive it comfortably
 
@@ -51,6 +51,6 @@ Collaboration and project management relied on a well-maintained Git commit hist
 
 ## 11. Use the appropriate input types in HTML forms for gathering different types of information
 
-When designing HTML forms, we carefully considered the user's needs and employed the right input types. For example, we used <input type="email"> for email addresses, <input type="checkbox"> for multi-choice options, and <input type="date"> for selecting dates. This ensured an intuitive and user-friendly form-filling experience for all visitors.
+When designing HTML forms, we carefully considered the user's needs and employed the right input types. For example, we used `input type="email"` for email addresses, `input type="checkbox"` for multi-choice options, and `input type="date"` for selecting dates. This ensured an intuitive and user-friendly form-filling experience for all visitors.
 
 ![HTML Forms Code Snippet](../images/HTML-Forms.png)
