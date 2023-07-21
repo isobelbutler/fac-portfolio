@@ -2,9 +2,13 @@
 
 We implemented asynchronous operations effectively in our code, particularly in the `fetchAPOD` and `fetchRandomSpaceImage` functions. By using asynchronous fetch requests, we ensured that the web page remained responsive during data retrieval from external APIs. For instance, when we submitted the form, our `handleFormSubmit` function used `fetchAPOD` to asynchronously fetch the Astronomy Picture of the Day from the NASA API.
 
+![Asynchronous Code Snippet](../images/Async.png)
+
 ## 2. Use callbacks to access values that aren’t available synchronously
 
 Throughout our code, we skillfully employed callbacks to handle API responses. For example, in the `fetchAPOD` function, we used the `then` method to handle the response and extract the necessary data, such as the HD image URL and the description. Similarly, in `fetchRandomSpaceImage`, we utilized the `then` method to process the response and obtain the URL for a random space-related image.
+
+![Callback Code Snippet](../images/Callbacks.png)
 
 ## 3. Use promises to access values that aren’t available synchronously
 
@@ -26,6 +30,8 @@ While our code primarily focused on using the default GET method for API request
 
 We skillfully accessed DOM nodes using various selectors such as `getElementById`, `querySelector`, and `querySelectorAll`. This enabled us to target specific elements on the page and dynamically manipulate their content. For example, we used `querySelector` to obtain the form element and `getElementById` to access the date and headline elements.
 
+![Accessing DOM nodes Code Snippet](../images/DOM.png)
+
 ## 9. Add and remove DOM nodes to change the content on the page
 
 In our code, we effectively manipulated the DOM by updating the content of different elements. For instance, when fetching APOD or random space images, we changed the background image of the `apodDisplayElement` and updated the `apodDescriptionElement` to display relevant information.
@@ -36,11 +42,15 @@ In our code, we effectively manipulated the DOM by updating the content of diffe
 
 We followed a consistent layout and spacing guideline in our code, which contributed to readability and maintainability. By maintaining consistent spacing and alignment, we ensured that our codebase remained clean and easy to navigate.
 
+![Spacing Code Snippet](../images/Spacing.png)
+
 ## 12. Follow a spacing guideline to give our app a consistent feel
 
 ## 13. Debug client side JS in our web browser
 
 Throughout development, we effectively used `console.log()` statements for debugging purposes. By logging relevant information and error messages to the browser console, we were able to diagnose and address issues efficiently.
+
+![Debug Code Snippet](../images/Console.png)
 
 ## 14. Use console.log() to help us debug our code
 
