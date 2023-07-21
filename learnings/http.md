@@ -2,7 +2,7 @@
 
 We implemented asynchronous operations effectively in our code, particularly in the `fetchAPOD` and `fetchRandomSpaceImage` functions. By using asynchronous fetch requests, we ensured that the web page remained responsive during data retrieval from external APIs. For instance, when we submitted the form, our `handleFormSubmit` function used `fetchAPOD` to asynchronously fetch the Astronomy Picture of the Day from the NASA API.
 
-![Asynchronous Code Snippet](../images/Async.png =250px)
+![Asynchronous Code Snippet](../images/Async.png)
 
 ## 2. Use callbacks to access values that aren’t available synchronously
 
