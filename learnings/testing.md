@@ -2,21 +2,31 @@
 
 We have implemented several test cases using the `test` function, where we verify the behavior of functions based on specific inputs and check if they produce the expected results. For example, in the test called `test('Update list to be completed', () => {...})`, we simulate a user clicking on the completed icon, and then we use assertions to confirm that the task is marked as completed with the class `line-through`.
 
+![Expected Ouput Code Snippet](../images/Expected-output.png)
+
 ## 2. Write tests to mimic the behaviour of a user performing different actions
 
 Throughout the test cases, we simulate user actions like clicking on buttons, filling out form fields, and interacting with completed or delete icons. For instance, in the test called `test('Passing test: Adding 1st task replaces the placeholder', () => {...})`, we mimic a user adding a new task by filling out the task title and description fields and then clicking the "Submit" button. We then assert that the added task replaces the placeholder task.
+
+![Mimic Behaviour Code Snippet](../images/Mimic-Behaviour.png)
 
 ## 3. Write testable, modular functions
 
 The code is structured with separate functions that handle specific tasks, making them easy to test individually. For example, the functions `addUserTask`, `openCreateTaskPopUp`, and `deleteTask` perform distinct actions, ensuring modular code that can be tested independently.
 
+![Modular Code Snippet](../images/Modular.png)
+
 ## 4. Write functions that add, remove or modify DOM nodes
 
 The functions `renderTasksDOM`, `openCreateTaskPopUp`, `closeAddPopUp`, `addUserTask`, and `deleteTask` manipulate the DOM by adding, updating, or removing elements based on user interactions or data. These functions dynamically update the UI to reflect changes in tasks.
 
+![Modify DOM nodes Code Snippet](../images/DOM-nodes.png)
+
 ## 5. Apply event listeners to HTML form elements
 
 Event listeners are applied to form elements like the "Submit" button and the "Add Task" button. For example, we use `addTaskForm.addEventListener('submit', ...)` to handle form submissions, and `addTaskBtn.addEventListener('click', ...)` to open the create task pop-up.
+
+![Event handlers Code Snippet](../images/Event-listener.png)
 
 ## 6. Use scope to control what variables are accessible inside functions and blocks
 
